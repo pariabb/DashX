@@ -5,6 +5,7 @@ import Logo from '../assets/logo.png';
 const Login = () => {
 
   return (
+
     <div className="container-fluid">
       <div className="row">
         <div className="mainpic col-12 d-none d-md-block col-md-6 col-lg-7">
@@ -58,5 +59,6 @@ const Login = () => {
     </div>
   );
 };
+
 
 export default Login;
