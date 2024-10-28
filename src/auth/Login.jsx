@@ -14,7 +14,7 @@ const Login = () => {
         <div className="col-12 col-sm-12 col-md-6 col-lg-5 d-flex align-items-center">
           <div className="signin d-flex flex-column w-100">
             <h2>Sign in</h2>
-            <p>If you don't have an account, you can register.</p>
+            <p>If you don't have an account register</p>
             <p>
               You can <Link className="link-text" to="/register">Register here!</Link>
             </p>
