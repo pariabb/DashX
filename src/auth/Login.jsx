@@ -37,7 +37,7 @@ const Login = () => {
         </div>
 
         <div className="col-12 col-sm-12 col-md-6 col-lg-5 d-flex align-items-center">
-          <div className="signin d-flex flex-column w-100">
+          <div className="signin d-flex flex-column w-100 mb-5 mt-5">
             <h2>Sign in</h2>
             <p>If you don't have an account register</p>
             <p>
