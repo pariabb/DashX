@@ -5,6 +5,7 @@ import axios from "axios";
 import { Navigate } from "react-router-dom";
 
 const Login = () => {
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [navigate, setNavigate] = useState(false);
@@ -72,9 +73,7 @@ const Login = () => {
                   <input type="checkbox" className="form-check-input mt-1 me-1" />
                   <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
                   <label className="forgot" >Forgot password?</label>
-
                 </div>
-
               </div>
 
               <button type="submit" className="btn login-btn mt-2">Login</button>
