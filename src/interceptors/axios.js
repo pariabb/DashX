@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = 'https://api.dashx.com/';
+axios.defaults.baseURL = 'https://www.dashx.tech/api/';
 
 let refresh = false;
 

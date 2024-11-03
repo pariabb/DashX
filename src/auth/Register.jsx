@@ -97,13 +97,13 @@ const Register = () => {
                 />
               </div>
               <div className="form-group">
-                <label className='forform' htmlFor="password">Confirm Password</label> <br />
+                <label className='forform' htmlFor="confirmPassword">Confirm Password</label> <br />
                 <label className='mt-1'><i className="fa-solid fa-lock me-1"></i>Confirm your password</label>
 
                 <input
                   onChange={e => setConfirmPassword(e.target.value)}
                   type="password"
-                  id="password"
+                  id="confirmpassword"
                   required
                   className="form-control input2"
                 />
